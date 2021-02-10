@@ -1,0 +1,20 @@
+.platform--container {
+  //   border: 1px solid black;
+  p {
+    text-transform: uppercase;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #7c828d;
+  }
+  .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10em;
+  }
+}

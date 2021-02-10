@@ -1,0 +1,11 @@
+.Team--container {
+  border: 1px solid black;
+  .images {
+    border: 2px solid red;
+    position: relative;
+    .team-img {
+      border: 1px solid black;
+      position: absolute;
+    }
+  }
+}

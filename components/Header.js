@@ -20,7 +20,7 @@ const Header = () => {
                             <Form.Group controlId="formBasicEmail">
                                 <Form.Control type="email" placeholder="Enter your email address" />
                             </Form.Group>
-                            <Button class="btn" variant="primary" type="submit">
+                            <Button className="btn" variant="primary" type="submit">
                                 Get Started
                             </Button>
                         </Form>
