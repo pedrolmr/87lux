@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import Button from "react-bootstrap/Button";
 import Image from 'next/image';
+import Container from "react-bootstrap/Container";
+
 
 const Themes = () => {
     return (
         <div className="Team--container my-5 py-5">
-            <div className="images">
+            <Container className="images">
                 <div className="team-img">
                     <Image
                         className="img"
@@ -75,12 +77,8 @@ const Themes = () => {
                         height="80px"
                     />
                 </div>
-                
-                   
-
-                
-               
-            </div>
+                <h3>Meet the team</h3>
+            </Container>
         </div>
     )
 
